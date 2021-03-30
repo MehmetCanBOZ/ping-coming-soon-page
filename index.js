@@ -11,14 +11,14 @@ document.querySelector("form").addEventListener('submit',function(e){
     }else{
         email_value.classList.remove("border_error");
         document.querySelector(".error").style.display="none";
-        
+
         document.querySelector(".main").style.display="none";
         document.querySelector(".thanks").style.display="block";
-
+        
         setTimeout(function(){
             document.querySelector(".thanks").style.display="none";
         },5000);
-
+        
         setTimeout(function(){
             document.querySelector(".main").style.display="block";
         },5000);
